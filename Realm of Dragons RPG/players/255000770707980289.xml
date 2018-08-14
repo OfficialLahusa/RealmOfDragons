@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserAccount xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <userId>255000770707980289</userId>
+  <location realm="1" location="1" />
+  <balance>99350</balance>
+  <inventory />
+</UserAccount>

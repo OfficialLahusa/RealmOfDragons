@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<category xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="item">
+  <subcategories>
+    <ItemCollection name="weapons">
+      <subcategories>
+        <ItemCollection name="melee">
+          <subcategories />
+          <items>
+            <ItemContainer name="Unnamed Item" id="unnamed_item" rarity="Common">This item has no description</ItemContainer>
+          </items>
+        </ItemCollection>
+      </subcategories>
+      <items />
+    </ItemCollection>
+    <ItemCollection name="quest">
+      <subcategories />
+      <items />
+    </ItemCollection>
+  </subcategories>
+  <items />
+</category>

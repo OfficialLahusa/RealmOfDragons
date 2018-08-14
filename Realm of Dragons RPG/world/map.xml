@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WorldMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <realms>
+    <Realm name="Mainland">
+      <locations>
+        <Location name="Royal Palace">
+          <connections>
+            <Connection realm="0" location="1" cost="0" />
+          </connections>
+        </Location>
+        <Location name="Royal Marketplace">
+          <connections>
+            <Connection realm="0" location="0" cost="0" />
+            <Connection realm="0" location="2" cost="0" />
+          </connections>
+        </Location>
+        <Location name="Transfer Port">
+          <connections>
+            <Connection realm="0" location="1" cost="0" />
+            <Connection realm="1" location="1" cost="150" />
+          </connections>
+        </Location>
+      </locations>
+    </Realm>
+    <Realm name="Realm of Gods">
+      <locations>
+        <Location name="Mt. Olympus">
+          <connections>
+            <Connection realm="1" location="1" cost="0" />
+          </connections>
+        </Location>
+        <Location name="Transfer Port">
+          <connections>
+            <Connection realm="0" location="2" cost="150" />
+            <Connection realm="1" location="0" cost="0" />
+          </connections>
+        </Location>
+      </locations>
+    </Realm>
+  </realms>
+</WorldMap>
