@@ -35,7 +35,7 @@ namespace Realm_of_Dragons_RPG
             Console.WriteLine("Lowest item category name: " + Serialization.ItemHandler.items.name);
             Console.WriteLine(Data.Users.users.Count);
 
-            string botToken = "NDc3MTkzNTQ5NDIzNzA2MTEy.Dk4mhw.ThdAbe-N2YtnjKQzBZ4tIQyWjqU";
+            string botToken = "hah get your own key and don't steal mine from github";
 
             //event subscriptions
             _client.Log += Log;
